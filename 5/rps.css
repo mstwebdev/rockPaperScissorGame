@@ -1,0 +1,105 @@
+body{
+  background-color: black;
+  color: white;
+  margin: 0px;
+  font-family: cursive;
+  width: 100vw;
+}
+header{
+  width: 100vw;
+  font-size: 50px;
+  background-image: linear-gradient(to right, #800080ad, #00f5);
+  text-align: center;
+}
+main{
+  width: 100vw;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.scorecard{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+span{
+  color: #d8ff00;
+}
+button{
+  margin-top: 20px;
+  border-radius: 30%;
+  height: 200px;
+  width: 200px;
+  font-size: 50px;
+  color: #fff;
+  font-family: cursive;
+  padding: 0px;
+  background-image: linear-gradient(to bottom, red, blue);
+}
+#message{
+  color: #ef7900;
+  font-size: 50px;
+}
+img{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 25%;
+  margin-top: 10px;
+}
+footer{
+  margin-top: 20px;
+  width: 100vw;
+  text-align: center;
+  font-size: 15px;
+}
+a{
+  text-decoration: none;
+}
+@media screen and (max-width: 780px) {
+  header{
+    width: 100vw;
+    font-size: 40px;
+    background-image: linear-gradient(to right, #800080ad, #00f5);
+    text-align: center;
+  }
+  main{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  .scorecard{
+    display: flex;
+    flex-direction: column;
+  }
+  button{
+    margin-top: 20px;
+    border-radius: 30%;
+    height: 100px;
+    width: 150px;
+    font-size: 30px;
+    color: #fff;
+    font-family: cursive;
+    padding: 0px;
+    background-image: linear-gradient(to bottom, red, blue);
+  }
+  #message{
+    color: #ef7900;
+    font-size: 30px;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 25%;
+    margin-top: 10px;
+  }
+  footer{
+    margin-top: 30px;
+    width: 100vw;
+    text-align: center;
+    font-size: 15px;
+  }
+  a{
+    text-decoration: none;
+  }
+}
