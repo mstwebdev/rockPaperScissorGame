@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./rps.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        Rock, Paper and Scissor Game
+      </header>
+      <main>
+        <div class="displayName">
+          Your Name: <span id="name"></span>
+        </div>
+        <div class="scorecard">
+          <p>Your choice: <span id="userChoiceDisplay"></span></p>
+          <p>Computer choose: <span id="computerChoiceDisplay"></span></p>
+          <p>Your Score: <span id="yourScore"></span></p>
+          <p>Computer's Score: <span id="computerScore"></span></p>
+        </div>
+        <div id="message">Hello</div>
+        <div class="images">
+          <button type="button" value="rock" id="gameButton">Rock<!--<img src="./images/rock.png" alt="rock">--></button>
+          <button type="button" value="paper" id="gameButton">Paper<!--<img src="./images/paper.png" alt="paper">--></button>
+          <button type="button" value="scissor" id="gameButton">Scissor<!--<img src="./images/scissor.png" alt="scissor">--></button>
+        </div>
+      <button type="reset" onclick="window.location.reload();" name="resetGame" id="resetGame">Reset</button>
+      </main>
+      <footer>Designed & Developed by <a href="https://github.com/mstwebdev/stopwatch.git">mstwebdev</a><br>2022 OpenSource</footer>
+    </div>
+    <script src="./rps.js"></script>
+  </body>
+</html>
